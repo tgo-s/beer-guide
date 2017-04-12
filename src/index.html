@@ -1,14 +1,52 @@
 <!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>BeerGuide</title>
-  <base href="/">
+<html lang="en">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <base href="/">
+      <title>Beer-Guide</title>
+      <!-- bootstrap core css -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+            crossorigin="anonymous">
+
+      <!-- Custom fonts for this template -->
+      <link href="./template/extra/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+      <!-- Custom styles for this template -->
+      <link href="./template/css/freelancer.min.css" rel="stylesheet">
+
+
+      <!-- Temporary navbar container fix -->
+      <style>
+            .navbar-toggler {
+                  z-index: 1;
+            }
+            
+            @media (max-width: 576px) {
+                  nav>.container {
+                        width: 100%;
+                  }
+            }
+      </style>
+
+      <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
 </head>
-<body>
-  <app-root>Loading...</app-root>
+
+<body class="index" id="page-top">
+      <!-- App Tag -->
+      <app-beer></app-beer>
+      <!-- App Tag -->
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>
